@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6C1CEBBC1BC5B5F9006532F4"
-               BuildableName = "Stormy.app"
-               BlueprintName = "Stormy"
-               ReferencedContainer = "container:Stormy.xcodeproj">
+               BuildableName = "Weathery.app"
+               BlueprintName = "Weathery"
+               ReferencedContainer = "container:Weathery.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6C1CEBD11BC5B5F9006532F4"
-               BuildableName = "StormyTests.xctest"
-               BlueprintName = "StormyTests"
-               ReferencedContainer = "container:Stormy.xcodeproj">
+               BuildableName = "WeatheryTests.xctest"
+               BlueprintName = "WeatheryTests"
+               ReferencedContainer = "container:Weathery.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6C1CEBD11BC5B5F9006532F4"
-               BuildableName = "StormyTests.xctest"
-               BlueprintName = "StormyTests"
-               ReferencedContainer = "container:Stormy.xcodeproj">
+               BuildableName = "WeatheryTests.xctest"
+               BlueprintName = "WeatheryTests"
+               ReferencedContainer = "container:Weathery.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6C1CEBBC1BC5B5F9006532F4"
-            BuildableName = "Stormy.app"
-            BlueprintName = "Stormy"
-            ReferencedContainer = "container:Stormy.xcodeproj">
+            BuildableName = "Weathery.app"
+            BlueprintName = "Weathery"
+            ReferencedContainer = "container:Weathery.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -77,9 +77,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6C1CEBBC1BC5B5F9006532F4"
-            BuildableName = "Stormy.app"
-            BlueprintName = "Stormy"
-            ReferencedContainer = "container:Stormy.xcodeproj">
+            BuildableName = "Weathery.app"
+            BlueprintName = "Weathery"
+            ReferencedContainer = "container:Weathery.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -96,9 +96,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6C1CEBBC1BC5B5F9006532F4"
-            BuildableName = "Stormy.app"
-            BlueprintName = "Stormy"
-            ReferencedContainer = "container:Stormy.xcodeproj">
+            BuildableName = "Weathery.app"
+            BlueprintName = "Weathery"
+            ReferencedContainer = "container:Weathery.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
