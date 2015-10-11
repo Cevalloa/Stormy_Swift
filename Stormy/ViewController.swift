@@ -18,6 +18,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+        // Extract data from the pList into the dictionary
         if let plistPath = NSBundle.mainBundle().pathForResource("CurrentWeather", ofType: "plist"),
             let weatherDictionary = NSDictionary(contentsOfFile: plistPath),
             let currentWeatherDictionary = weatherDictionary["currently"] as? [String : AnyObject]{
@@ -29,12 +30,5 @@ class ViewController: UIViewController {
                 currentPrecipitationLabel?.text = "\(currentWeather.precipProbability)%"
         }
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
 
