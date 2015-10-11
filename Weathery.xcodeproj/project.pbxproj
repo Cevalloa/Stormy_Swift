@@ -15,6 +15,7 @@
 		6C1CEBD91BC5B5F9006532F4 /* StormyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1CEBD81BC5B5F9006532F4 /* StormyTests.swift */; };
 		6C75C91C1BC98F32008745D0 /* CurrentWeather.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6C75C91B1BC98F31008745D0 /* CurrentWeather.plist */; };
 		6C75C91E1BC9951E008745D0 /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C75C91D1BC9951E008745D0 /* CurrentWeather.swift */; };
+		6C75C9201BCAE658008745D0 /* NetworkOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C75C91F1BCAE658008745D0 /* NetworkOperation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		6C1CEBD81BC5B5F9006532F4 /* StormyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StormyTests.swift; sourceTree = "<group>"; };
 		6C75C91B1BC98F31008745D0 /* CurrentWeather.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CurrentWeather.plist; sourceTree = "<group>"; };
 		6C75C91D1BC9951E008745D0 /* CurrentWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
+		6C75C91F1BCAE658008745D0 /* NetworkOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkOperation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				6C1CEBC91BC5B5F9006532F4 /* Images.xcassets */,
 				6C1CEBCB1BC5B5F9006532F4 /* LaunchScreen.xib */,
 				6C1CEBC01BC5B5F9006532F4 /* Supporting Files */,
+				6C75C91F1BCAE658008745D0 /* NetworkOperation.swift */,
 			);
 			path = Stormy;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C75C9201BCAE658008745D0 /* NetworkOperation.swift in Sources */,
 				6C1CEBC51BC5B5F9006532F4 /* ViewController.swift in Sources */,
 				6C75C91E1BC9951E008745D0 /* CurrentWeather.swift in Sources */,
 				6C1CEBC31BC5B5F9006532F4 /* AppDelegate.swift in Sources */,
