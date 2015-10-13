@@ -27,6 +27,5 @@ struct CurrentWeather {
         precipProbability = Int(precipFloat * 100)
         
         summary = weatherDictionary["summary"] as! String
-
     }
 }
